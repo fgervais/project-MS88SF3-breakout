@@ -1,4 +1,32 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MS88SF3:MS88SF3 U?
+U 1 1 62BF0ECE
+P 2700 2850
+F 0 "U?" H 2700 4717 50  0000 C CNN
+F 1 "MS88SF3" H 2700 4626 50  0000 C CNN
+F 2 "MODULE_MS88SF3" H 2700 2850 50  0001 L BNN
+F 3 "" H 2700 2850 50  0001 L BNN
+F 4 "V1.0" H 2700 2850 50  0001 L BNN "PARTREV"
+F 5 "Minew" H 2700 2850 50  0001 L BNN "MANUFACTURER"
+F 6 "MS88SF3" H 2700 2850 50  0001 L BNN "SNAPEDA_PN"
+F 7 "2.15mm" H 2700 2850 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 8 "Manufacturer Recommendations" H 2700 2850 50  0001 L BNN "STANDARD"
+	1    2700 2850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
