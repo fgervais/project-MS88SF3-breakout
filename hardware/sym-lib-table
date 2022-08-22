@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name MS88SF3)(type Legacy)(uri ${KIPRJMOD}/kicad-library/MS88SF3/MS88SF3.lib)(options "")(descr ""))
+  (lib (name USB4105-GF-A)(type Legacy)(uri ${KIPRJMOD}/kicad-library/USB4105-GF-A/USB4105-GF-A.lib)(options "")(descr ""))
+  (lib (name SM04B-SRSS-TB_LF__SN_)(type Legacy)(uri "${KIPRJMOD}/kicad-library/SM04B-SRSS-TB(LF)(SN)/SM04B-SRSS-TB_LF__SN_.lib")(options "")(descr ""))
 )

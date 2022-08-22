@@ -29,4 +29,359 @@ F 8 "Manufacturer Recommendations" H 2700 2850 50  0001 L BNN "STANDARD"
 	1    2700 2850
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6301553B
+P 3950 4500
+F 0 "#PWR?" H 3950 4250 50  0001 C CNN
+F 1 "GND" H 3955 4327 50  0000 C CNN
+F 2 "" H 3950 4500 50  0001 C CNN
+F 3 "" H 3950 4500 50  0001 C CNN
+	1    3950 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 4500 3950 4450
+Wire Wire Line
+	3950 4450 3900 4450
+$Comp
+L USB4105-GF-A:USB4105-GF-A J?
+U 1 1 63016D79
+P 9750 1750
+F 0 "J?" H 9750 2417 50  0000 C CNN
+F 1 "USB4105-GF-A" H 9750 2326 50  0000 C CNN
+F 2 "GCT_USB4105-GF-A" H 9750 1750 50  0001 L BNN
+F 3 "" H 9750 1750 50  0001 L BNN
+F 4 "3.31 mm" H 9750 1750 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 5 "Manufacturer Recommendations" H 9750 1750 50  0001 L BNN "STANDARD"
+F 6 "A3" H 9750 1750 50  0001 L BNN "PARTREV"
+F 7 "GCT" H 9750 1750 50  0001 L BNN "MANUFACTURER"
+	1    9750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6301B6C4
+P 8300 1500
+F 0 "R?" H 8370 1546 50  0000 L CNN
+F 1 "5.1k" H 8370 1455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8230 1500 50  0001 C CNN
+F 3 "~" H 8300 1500 50  0001 C CNN
+	1    8300 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6301BD36
+P 8600 1500
+F 0 "R?" H 8670 1546 50  0000 L CNN
+F 1 "5.1k" H 8670 1455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8530 1500 50  0001 C CNN
+F 3 "~" H 8600 1500 50  0001 C CNN
+	1    8600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6301EFF7
+P 10750 2200
+F 0 "#PWR?" H 10750 1950 50  0001 C CNN
+F 1 "GND" H 10755 2027 50  0000 C CNN
+F 2 "" H 10750 2200 50  0001 C CNN
+F 3 "" H 10750 2200 50  0001 C CNN
+	1    10750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 630235F3
+P 4800 1100
+F 0 "L?" V 4990 1100 50  0000 C CNN
+F 1 "10uH" V 4899 1100 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 4800 1100 50  0001 C CNN
+F 3 "~" H 4800 1100 50  0001 C CNN
+	1    4800 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 1100 4650 1100
+Text Label 4400 1100 0    50   ~ 0
+DCCH
+Wire Wire Line
+	3900 1250 5050 1250
+Wire Wire Line
+	5050 1250 5050 1100
+Wire Wire Line
+	5050 1100 4950 1100
+$Comp
+L Device:R R?
+U 1 1 630309A2
+P 5000 1950
+F 0 "R?" V 5207 1950 50  0000 C CNN
+F 1 "4.7" V 5116 1950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4930 1950 50  0001 C CNN
+F 3 "~" H 5000 1950 50  0001 C CNN
+	1    5000 1950
+	0    -1   -1   0   
+$EndComp
+Text Label 5200 1950 0    50   ~ 0
+VBUS_CONN
+Wire Wire Line
+	5150 1950 5650 1950
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 63036196
+P 5400 1450
+F 0 "JP?" H 5400 1655 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 5400 1564 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5400 1450 50  0001 C CNN
+F 3 "~" H 5400 1450 50  0001 C CNN
+	1    5400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 63036BBA
+P 5650 1200
+F 0 "JP?" V 5604 1268 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 5695 1268 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5650 1200 50  0001 C CNN
+F 3 "~" H 5650 1200 50  0001 C CNN
+	1    5650 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 1450 4650 1950
+Wire Wire Line
+	4650 1950 4850 1950
+Text Label 4500 1450 0    50   ~ 0
+VBUS_nRF
+Wire Wire Line
+	4650 1450 5250 1450
+Connection ~ 4650 1450
+Wire Wire Line
+	3900 1350 5650 1350
+Wire Wire Line
+	5650 1350 5650 1450
+Wire Wire Line
+	5650 1450 5550 1450
+Connection ~ 5650 1350
+Wire Wire Line
+	5650 1050 5650 1000
+Wire Wire Line
+	5650 1000 5150 1000
+Wire Wire Line
+	5150 1000 5150 1250
+Wire Wire Line
+	5150 1250 5050 1250
+Connection ~ 5050 1250
+$Comp
+L Device:R R?
+U 1 1 6304D352
+P 8600 2150
+F 0 "R?" V 8393 2150 50  0000 C CNN
+F 1 "22" V 8484 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8530 2150 50  0001 C CNN
+F 3 "~" H 8600 2150 50  0001 C CNN
+	1    8600 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6304E3E8
+P 8600 2500
+F 0 "R?" V 8393 2500 50  0000 C CNN
+F 1 "22" V 8484 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8530 2500 50  0001 C CNN
+F 3 "~" H 8600 2500 50  0001 C CNN
+	1    8600 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L SM04B-SRSS-TB_LF__SN_:SM04B-SRSS-TB(LF)(SN) J?
+U 1 1 630517DF
+P 7550 4950
+F 0 "J?" H 7780 4946 50  0000 L CNN
+F 1 "SM04B-SRSS-TB(LF)(SN)" H 7780 4855 50  0000 L CNN
+F 2 "JST_SM04B-SRSS-TB(LF)(SN)" H 7550 4950 50  0001 L BNN
+F 3 "" H 7550 4950 50  0001 L BNN
+F 4 "Manufacturer recommendations" H 7550 4950 50  0001 L BNN "STANDARD"
+F 5 "JST" H 7550 4950 50  0001 L BNN "MANUFACTURER"
+	1    7550 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 3950 1500 3950
+Text Label 1150 3950 0    50   ~ 0
+RESET
+Wire Wire Line
+	1250 5600 1600 5600
+Text Label 1250 5600 0    50   ~ 0
+RESET
+$Comp
+L Device:R R?
+U 1 1 630544FE
+P 1750 5350
+F 0 "R?" H 1820 5396 50  0000 L CNN
+F 1 "5.1k" H 1820 5305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1680 5350 50  0001 C CNN
+F 3 "~" H 1750 5350 50  0001 C CNN
+	1    1750 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 63054C5D
+P 1750 6000
+F 0 "C?" H 1865 6046 50  0000 L CNN
+F 1 "100nF" H 1865 5955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1788 5850 50  0001 C CNN
+F 3 "~" H 1750 6000 50  0001 C CNN
+	1    1750 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1450 4650 1450
+Wire Wire Line
+	4150 1650 3900 1650
+Text Label 3950 1650 0    50   ~ 0
+TX
+Wire Wire Line
+	4150 2050 3900 2050
+Text Label 3950 2050 0    50   ~ 0
+RX
+Text Label 3950 1250 0    50   ~ 0
+VDD_OUT
+$Comp
+L Device:LED D?
+U 1 1 6306A63F
+P 4450 6400
+F 0 "D?" H 4443 6145 50  0000 C CNN
+F 1 "LED" H 4443 6236 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4450 6400 50  0001 C CNN
+F 3 "~" H 4450 6400 50  0001 C CNN
+	1    4450 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6306BDDD
+P 3950 6400
+F 0 "R?" V 3743 6400 50  0000 C CNN
+F 1 "1k" V 3834 6400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3880 6400 50  0001 C CNN
+F 3 "~" H 3950 6400 50  0001 C CNN
+	1    3950 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 63072B34
+P 7400 3750
+F 0 "J?" H 7450 4167 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 7450 4076 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 7400 3750 50  0001 C CNN
+F 3 "~" H 7400 3750 50  0001 C CNN
+	1    7400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6307991A
+P 11050 1450
+F 0 "C?" H 11165 1496 50  0000 L CNN
+F 1 "100nF" H 11165 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11088 1300 50  0001 C CNN
+F 3 "~" H 11050 1450 50  0001 C CNN
+	1    11050 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6307AB03
+P 10650 1450
+F 0 "C?" H 10765 1496 50  0000 L CNN
+F 1 "4.7uF" H 10765 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10688 1300 50  0001 C CNN
+F 3 "~" H 10650 1450 50  0001 C CNN
+	1    10650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63080A63
+P 2300 5650
+F 0 "SW?" H 2300 5885 50  0000 C CNN
+F 1 "SW_SPST" H 2300 5794 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3U-3000P-B" H 2300 5650 50  0001 C CNN
+F 3 "~" H 2300 5650 50  0001 C CNN
+	1    2300 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 63082A94
+P 9550 4150
+F 0 "H?" H 9650 4199 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9650 4108 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 9550 4150 50  0001 C CNN
+F 3 "~" H 9550 4150 50  0001 C CNN
+	1    9550 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 6308334E
+P 9900 4150
+F 0 "H?" H 10000 4199 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10000 4108 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 9900 4150 50  0001 C CNN
+F 3 "~" H 9900 4150 50  0001 C CNN
+	1    9900 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 63083EDA
+P 9550 4500
+F 0 "H?" H 9650 4549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9650 4458 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 9550 4500 50  0001 C CNN
+F 3 "~" H 9550 4500 50  0001 C CNN
+	1    9550 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 63083EE0
+P 9900 4500
+F 0 "H?" H 10000 4549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10000 4458 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 9900 4500 50  0001 C CNN
+F 3 "~" H 9900 4500 50  0001 C CNN
+	1    9900 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 63088C20
+P 6150 800
+F 0 "C?" H 6265 846 50  0000 L CNN
+F 1 "100nF" H 6265 755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6188 650 50  0001 C CNN
+F 3 "~" H 6150 800 50  0001 C CNN
+	1    6150 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 63088C26
+P 5750 800
+F 0 "C?" H 5865 846 50  0000 L CNN
+F 1 "4.7uF" H 5865 755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5788 650 50  0001 C CNN
+F 3 "~" H 5750 800 50  0001 C CNN
+	1    5750 800 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
