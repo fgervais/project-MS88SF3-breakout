@@ -820,9 +820,9 @@ Text Label 5850 4050 0    50   ~ 0
 GND
 Wire Wire Line
 	6200 4050 5850 4050
-Text Label 5850 3050 0    50   ~ 0
-TX
 Text Label 5850 3150 0    50   ~ 0
+TX
+Text Label 5850 3050 0    50   ~ 0
 RX
 Wire Wire Line
 	6200 3050 5850 3050
@@ -1036,14 +1036,18 @@ Connection ~ 7750 900
 Wire Wire Line
 	7750 900  9650 900 
 $Comp
-L power:PWR_FLAG #FLG?
+L power:PWR_FLAG #FLG0101
 U 1 1 6391DB45
 P 7750 900
-F 0 "#FLG?" H 7750 975 50  0001 C CNN
+F 0 "#FLG0101" H 7750 975 50  0001 C CNN
 F 1 "PWR_FLAG" H 7750 1073 50  0000 C CNN
 F 2 "" H 7750 900 50  0001 C CNN
 F 3 "~" H 7750 900 50  0001 C CNN
 	1    7750 900 
 	1    0    0    -1  
 $EndComp
+Text Label 1150 2450 0    50   ~ 0
+AIN1
+Wire Wire Line
+	1150 2450 1500 2450
 $EndSCHEMATC
