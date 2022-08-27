@@ -820,14 +820,14 @@ Text Label 5850 4050 0    50   ~ 0
 GND
 Wire Wire Line
 	6200 4050 5850 4050
-Text Label 5850 3150 0    50   ~ 0
+Text Label 5850 3350 0    50   ~ 0
 TX
-Text Label 5850 3050 0    50   ~ 0
+Text Label 5850 3150 0    50   ~ 0
 RX
 Wire Wire Line
-	6200 3050 5850 3050
-Wire Wire Line
 	6200 3150 5850 3150
+Wire Wire Line
+	6200 3350 5850 3350
 Text Label 4900 2850 0    50   ~ 0
 P1.10
 Wire Wire Line
@@ -856,46 +856,14 @@ Text Label 4900 3450 0    50   ~ 0
 AIN5
 Wire Wire Line
 	4900 3450 5250 3450
-Text Label 5850 3250 0    50   ~ 0
-P0.25
-Wire Wire Line
-	5850 3250 6200 3250
-Text Label 5850 2950 0    50   ~ 0
+Text Label 5850 3050 0    50   ~ 0
 NFC2
 Wire Wire Line
-	5850 2950 6200 2950
-Text Label 5850 3350 0    50   ~ 0
-P0.22
-Wire Wire Line
-	5850 3350 6200 3350
-Text Label 5850 3450 0    50   ~ 0
-P0.23
-Wire Wire Line
-	5850 3450 6200 3450
-Text Label 5850 3550 0    50   ~ 0
-P0.21
-Wire Wire Line
-	5850 3550 6200 3550
-Text Label 5850 3650 0    50   ~ 0
-P0.17
-Wire Wire Line
-	5850 3650 6200 3650
-Text Label 5850 3750 0    50   ~ 0
-P0.15
-Wire Wire Line
-	5850 3750 6200 3750
-Text Label 5850 3850 0    50   ~ 0
-P0.13
-Wire Wire Line
-	5850 3850 6200 3850
-Text Label 5850 3950 0    50   ~ 0
-P0.19
-Wire Wire Line
-	5850 3950 6200 3950
-Text Label 5850 2850 0    50   ~ 0
+	5850 3050 6200 3050
+Text Label 5850 2950 0    50   ~ 0
 NFC1
 Wire Wire Line
-	5850 2850 6200 2850
+	5850 2950 6200 2950
 Wire Wire Line
 	4250 4050 3900 4050
 Text Label 4250 4150 2    50   ~ 0
@@ -1050,4 +1018,36 @@ Text Label 1150 2450 0    50   ~ 0
 AIN1
 Wire Wire Line
 	1150 2450 1500 2450
+Wire Wire Line
+	5850 3550 6200 3550
+Text Label 5850 3550 0    50   ~ 0
+P0.19
+Wire Wire Line
+	5850 3650 6200 3650
+Text Label 5850 3650 0    50   ~ 0
+P0.13
+Wire Wire Line
+	5850 3750 6200 3750
+Text Label 5850 3750 0    50   ~ 0
+P0.15
+Wire Wire Line
+	5850 3850 6200 3850
+Text Label 5850 3850 0    50   ~ 0
+P0.17
+Wire Wire Line
+	5850 3950 6200 3950
+Text Label 5850 3950 0    50   ~ 0
+P0.21
+Wire Wire Line
+	5850 3450 6200 3450
+Text Label 5850 3450 0    50   ~ 0
+P0.23
+Wire Wire Line
+	5850 3250 6200 3250
+Text Label 5850 3250 0    50   ~ 0
+P0.22
+Wire Wire Line
+	5850 2850 6200 2850
+Text Label 5850 2850 0    50   ~ 0
+P0.25
 $EndSCHEMATC
