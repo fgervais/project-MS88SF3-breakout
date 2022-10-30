@@ -9,6 +9,9 @@ Try out the nRF52840 module from Minew.
 
 ## Power Consumption
 
+### Sleep - Full RAM retention - GPIO wake-up
+
+![Sleep Power](assets/img/sleep-power.png)
 
 ## Price
 
