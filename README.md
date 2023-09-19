@@ -1,7 +1,7 @@
 # MS88SF3 Breakout Board
 
-![Boards](assets/img/IMG_1130.JPG)
-![Assembled](assets/img/IMG_1139.JPG)
+![Overview](assets/img/mosaic-view.jpg)
+![PCB](assets/img/back-view.jpg)
 
 ## Objective
 
