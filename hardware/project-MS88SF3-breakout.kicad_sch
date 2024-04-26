@@ -21,13 +21,12 @@
 				)
 			)
 			(property "Value" "435151014824"
-				(at 17.78 5.08 0)
+				(at -7.62 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "435151014824:435151014824"
@@ -92,6 +91,16 @@
 			)
 			(property "OPERATION-FORCE" "240g"
 				(at 10.16 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "VALUE" "435151014824"
+				(at 17.78 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10461,7 +10470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "435151014824"
+		(property "Footprint" "435151014824:435151014824"
 			(at 82.55 167.64 0)
 			(effects
 				(font
@@ -10481,7 +10490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "435151014824"
 			(at 64.77 167.64 0)
 			(effects
 				(font
