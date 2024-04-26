@@ -5,305 +5,6 @@
 	(uuid "3e0804a6-abc2-4b5d-ae97-2c771c876220")
 	(paper "A4")
 	(lib_symbols
-		(symbol "435151014824:435151014824"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at -2.4384 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "435151014824"
-				(at -7.62 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "435151014824:435151014824"
-				(at 17.78 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "435151014824"
-				(at 17.78 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "QTY" "9500"
-				(at 10.16 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/435151014824 .pdf"
-				(at 10.16 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "H" "1.4mm"
-				(at 10.16 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "OPERATION-FORCE" "240g"
-				(at 10.16 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "VALUE" "435151014824"
-				(at 17.78 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "435151014824_0_0"
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "435151014824_1_1"
-				(circle
-					(center -1.778 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 1.27) (xy 2.286 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -2.54 0) (xy -2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.778 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x12_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -4298,6 +3999,356 @@
 				)
 			)
 		)
+		(symbol "PTS810_SJM_250_SMTR_LFS:PTS810_SJM_250_SMTR_LFS"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at -3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PTS810_SJM_250_SMTR_LFS"
+				(at -5.08 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PTS810-SJM-250-SMTR-LFS:SW_PTS810_SJM_250_SMTR_LFS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" "CKN10502TR-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTS810%20SJM%20250%20SMTR%20LFS/C%2526K/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nTactile Switch SPST-NO Top Actuated Surface Mount\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/PTS810%20SJM%20250%20SMTR%20LFS/C%2526K/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "C&K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "PTS810 SJM 250 SMTR LFS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "CnK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PTS810_SJM_250_SMTR_LFS_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "S2B-PH-SM4-TB_LF__SN_:S2B-PH-SM4-TB(LF)(SN)"
 			(pin_names
 				(offset 1.016)
@@ -5112,12 +5163,6 @@
 		(uuid "68106772-e8f6-4eb3-be7a-c83454f49926")
 	)
 	(junction
-		(at 72.39 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73ba4962-0be7-4432-baa1-a2edf9fb439b")
-	)
-	(junction
 		(at 229.87 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5741,16 +5786,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 175.26) (xy 72.39 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52f794ee-0b07-426a-a385-fc7f2ea8bd56")
-	)
-	(wire
-		(pts
 			(xy 46.99 165.1) (xy 46.99 167.64)
 		)
 		(stroke
@@ -6211,16 +6246,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 172.72) (xy 72.39 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "915683e8-a40b-415d-b076-a51af8040680")
-	)
-	(wire
-		(pts
 			(xy 128.27 52.07) (xy 137.16 52.07)
 		)
 		(stroke
@@ -6401,16 +6426,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 172.72) (xy 58.42 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a32c5a85-d8cc-41c7-b1cd-15977d91e6c8")
-	)
-	(wire
-		(pts
 			(xy 100.33 116.84) (xy 91.44 116.84)
 		)
 		(stroke
@@ -6458,16 +6473,6 @@
 			(type default)
 		)
 		(uuid "a9bd2931-c546-477f-ab80-ff9e78fbf4d4")
-	)
-	(wire
-		(pts
-			(xy 58.42 172.72) (xy 58.42 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab3a0055-6877-46a8-b0e7-18f2dff9b072")
 	)
 	(wire
 		(pts
@@ -6771,16 +6776,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 172.72) (xy 72.39 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf9c7e7c-462e-49e2-a9ac-d8dd49cf0859")
-	)
-	(wire
-		(pts
 			(xy 21.59 63.5) (xy 30.48 63.5)
 		)
 		(stroke
@@ -6918,16 +6913,6 @@
 			(type default)
 		)
 		(uuid "e497d94c-73f3-4a1c-9000-ae1e6249e223")
-	)
-	(wire
-		(pts
-			(xy 58.42 175.26) (xy 72.39 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e65eb05d-f63a-4a76-9ff7-64b00df0b0c0")
 	)
 	(wire
 		(pts
@@ -10446,212 +10431,6 @@
 		)
 	)
 	(symbol
-		(lib_id "435151014824:435151014824")
-		(at 64.77 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063271893")
-		(property "Reference" "S1"
-			(at 64.77 160.401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "435151014824"
-			(at 64.77 162.7124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "435151014824:435151014824"
-			(at 82.55 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "435151014824"
-			(at 64.77 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" "435151014824"
-			(at 82.55 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "QTY" "9500"
-			(at 74.93 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/435151014824 .pdf"
-			(at 74.93 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "H" "1.4mm"
-			(at 74.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "OPERATION-FORCE" "240g"
-			(at 74.93 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VALUE" "435151014824"
-			(at 82.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "79c9ef1c-c8cf-410b-a5fc-4da8b882b3be")
-		)
-		(pin "1"
-			(uuid "d343cb61-c1a7-4251-90ca-25c4a56c6260")
-		)
-		(pin "4"
-			(uuid "f52a500c-2629-40e2-bd2a-8723d160a315")
-		)
-		(pin "3"
-			(uuid "c0bb4df9-5093-4132-a690-ae730e95cedb")
-		)
-		(pin "6"
-			(uuid "432ec7a1-6d64-47e9-bf17-6b73cfc103e3")
-		)
-		(pin "2"
-			(uuid "fcff6e17-1168-42ee-bb6c-618ad71574b3")
-		)
-		(instances
-			(project "project-MS88SF3-breakout"
-				(path "/3e0804a6-abc2-4b5d-ae97-2c771c876220"
-					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 72.39 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006328c2c4")
-		(property "Reference" "#PWR03"
-			(at 72.39 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.517 184.7342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11c8d367-db52-467f-b441-b8032cdaee8f")
-		)
-		(instances
-			(project "project-MS88SF3-breakout"
-				(path "/3e0804a6-abc2-4b5d-ae97-2c771c876220"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MS88SF3_NRF52840:MS88SF3_NRF52840")
 		(at 60.96 76.2 0)
 		(unit 1)
@@ -11882,6 +11661,171 @@
 			(project "project-MS88SF3-breakout"
 				(path "/3e0804a6-abc2-4b5d-ae97-2c771c876220"
 					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PTS810_SJM_250_SMTR_LFS:PTS810_SJM_250_SMTR_LFS")
+		(at 64.77 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f106f825-a6cb-4923-8405-07f929de44a1")
+		(property "Reference" "SW1"
+			(at 64.77 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS810_SJM_250_SMTR_LFS"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PTS810-SJM-250-SMTR-LFS:SW_PTS810_SJM_250_SMTR_LFS"
+			(at 64.77 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "CKN10502TR-ND"
+			(at 64.77 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTS810%20SJM%20250%20SMTR%20LFS/C%2526K/view-part/?ref=snap"
+			(at 64.77 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nTactile Switch SPST-NO Top Actuated Surface Mount\n"
+			(at 64.77 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 64.77 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PTS810%20SJM%20250%20SMTR%20LFS/C%2526K/view-part/?ref=eda"
+			(at 64.77 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 64.77 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "C&K"
+			(at 64.77 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "PTS810 SJM 250 SMTR LFS"
+			(at 64.77 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CnK"
+			(at 64.77 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "68b41b14-5361-4cf8-b5c2-e9e7b3b77078")
+		)
+		(pin "3"
+			(uuid "d826ac0e-8ece-4475-8fe0-3501e60ee3b1")
+		)
+		(pin "2"
+			(uuid "5cf0c83f-6a64-45e5-808d-c94fbf280070")
+		)
+		(pin "1"
+			(uuid "3128cf3d-8212-4476-b2c7-6866dadf0c09")
+		)
+		(instances
+			(project "project-MS88SF3-breakout"
+				(path "/3e0804a6-abc2-4b5d-ae97-2c771c876220"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
