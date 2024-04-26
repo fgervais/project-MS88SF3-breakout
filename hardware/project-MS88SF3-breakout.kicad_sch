@@ -8794,7 +8794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+		(property "Footprint" "mine:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 236.22 39.37 0)
 			(effects
 				(font
@@ -8864,7 +8864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "mine:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 242.57 30.48 0)
 			(effects
 				(font

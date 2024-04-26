@@ -8,4 +8,5 @@
   (lib (name "MS88SF3_NRF52840")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/MS88SF3_NRF52840")(options "")(descr ""))
   (lib (name "drawing")(type "KiCad")(uri "${KIPRJMOD}/drawing")(options "")(descr ""))
   (lib (name "PTS810-SJM-250-SMTR-LFS")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/PTS810-SJM-250-SMTR-LFS")(options "")(descr ""))
+  (lib (name "mine")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/mine")(options "")(descr ""))
 )
