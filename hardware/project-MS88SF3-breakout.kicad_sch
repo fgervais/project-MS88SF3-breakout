@@ -5303,10 +5303,6 @@
 		(uuid "c2d9d6a6-c2f9-4b67-92b9-0847252bead7")
 	)
 	(no_connect
-		(at 30.48 76.2)
-		(uuid "c9f53a02-0a82-43dd-95fb-de3a1e51a24f")
-	)
-	(no_connect
 		(at 91.44 101.6)
 		(uuid "ca43123b-284b-46f1-856d-4057772af594")
 	)
@@ -5325,10 +5321,6 @@
 	(no_connect
 		(at 30.48 45.72)
 		(uuid "d82f8bb7-71d6-4f43-b3b1-df45e3d40f41")
-	)
-	(no_connect
-		(at 30.48 73.66)
-		(uuid "df0430a7-4477-4673-bae5-7dab44dab768")
 	)
 	(no_connect
 		(at 91.44 99.06)
@@ -5353,6 +5345,16 @@
 			(type default)
 		)
 		(uuid "04dd4a6c-f814-485d-821b-fa03d466ee33")
+	)
+	(wire
+		(pts
+			(xy 21.59 76.2) (xy 30.48 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084de0ff-3a2b-4817-af3d-aea9d34bd4e1")
 	)
 	(wire
 		(pts
@@ -6836,6 +6838,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 73.66) (xy 30.48 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b2d83e-dd3e-49b9-a1a0-f92cd0e478d0")
+	)
+	(wire
+		(pts
 			(xy 128.27 39.37) (xy 137.16 39.37)
 		)
 		(stroke
@@ -7467,17 +7479,6 @@
 		)
 		(uuid "38e2a154-3d3e-4060-add0-22874fe6e76a")
 	)
-	(label "TX"
-		(at 147.32 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3a5fc530-0da2-46a4-a2cc-72e384497d33")
-	)
 	(label "GND"
 		(at 133.35 115.57 0)
 		(fields_autoplaced yes)
@@ -7556,13 +7557,13 @@
 		(uuid "50675cde-8648-4b5d-b4a4-5031fe8ba6fc")
 	)
 	(label "TX"
-		(at 105.41 45.72 180)
+		(at 21.59 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "515630ad-1504-4230-98a8-bea8b637d358")
 	)
@@ -7699,13 +7700,13 @@
 		(uuid "7c6cfa58-f1c9-4e7f-b4bb-d839125f5e8a")
 	)
 	(label "RX"
-		(at 105.41 55.88 180)
+		(at 21.59 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "808cc9ae-c8b6-4bb1-ad54-f816745a3301")
 	)
@@ -7928,17 +7929,6 @@
 			(justify left bottom)
 		)
 		(uuid "c48630f8-44f7-4a08-ac7c-ef47aaa92c9e")
-	)
-	(label "RX"
-		(at 147.32 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c487a41f-bb54-4526-aad8-181e59eeeb3f")
 	)
 	(label "CC2"
 		(at 220.98 140.97 0)
