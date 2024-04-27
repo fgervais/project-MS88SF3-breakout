@@ -5311,7 +5311,7 @@
 		(uuid "ca43123b-284b-46f1-856d-4057772af594")
 	)
 	(no_connect
-		(at 91.44 45.72)
+		(at 91.44 78.74)
 		(uuid "cbb8f4a6-d4ed-448e-b2b4-72ca84146d22")
 	)
 	(no_connect
@@ -6616,7 +6616,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 78.74) (xy 91.44 78.74)
+			(xy 100.33 45.72) (xy 91.44 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7258,6 +7258,28 @@
 		)
 		(uuid "06004040-7683-490b-985a-b3b6a9cb89b4")
 	)
+	(label "P0.24"
+		(at 152.4 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06291c12-3497-4701-8b63-8700a402d94d")
+	)
+	(label "P0.24"
+		(at 100.33 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06c5bc80-37a1-4102-a2fe-7e5437c9d204")
+	)
 	(label "P0.21"
 		(at 152.4 57.15 0)
 		(fields_autoplaced yes)
@@ -7446,7 +7468,7 @@
 		(uuid "38e2a154-3d3e-4060-add0-22874fe6e76a")
 	)
 	(label "TX"
-		(at 152.4 41.91 0)
+		(at 147.32 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7534,7 +7556,7 @@
 		(uuid "50675cde-8648-4b5d-b4a4-5031fe8ba6fc")
 	)
 	(label "TX"
-		(at 100.33 78.74 180)
+		(at 105.41 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7677,7 +7699,7 @@
 		(uuid "7c6cfa58-f1c9-4e7f-b4bb-d839125f5e8a")
 	)
 	(label "RX"
-		(at 100.33 55.88 180)
+		(at 105.41 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7908,7 +7930,7 @@
 		(uuid "c48630f8-44f7-4a08-ac7c-ef47aaa92c9e")
 	)
 	(label "RX"
-		(at 152.4 36.83 0)
+		(at 147.32 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8149,6 +8171,17 @@
 		)
 		(uuid "f3ff2f2f-6e07-43ab-85ef-1acd5af2f997")
 	)
+	(label "P0.20"
+		(at 100.33 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4671af8-541c-4ad7-80cd-aaffc768781e")
+	)
 	(label "D+"
 		(at 186.69 146.05 0)
 		(fields_autoplaced yes)
@@ -8192,6 +8225,17 @@
 			(justify right bottom)
 		)
 		(uuid "f99f8afe-76ed-4d4e-81a4-3f0758500355")
+	)
+	(label "P0.20"
+		(at 152.4 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb9a8438-5250-4728-8e30-bb5c0237bb78")
 	)
 	(label "AIN5"
 		(at 128.27 44.45 0)
