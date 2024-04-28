@@ -8018,7 +8018,7 @@
 			)
 		)
 	)
-	(gr_text "RX"
+	(gr_text "24"
 		(at 56.134 94.742 90)
 		(layer "F.SilkS")
 		(uuid "835d70bc-2aba-45f3-8e1f-d458f0e581be")
@@ -8117,7 +8117,7 @@
 			)
 		)
 	)
-	(gr_text "TX"
+	(gr_text "20"
 		(at 56.134 99.822 90)
 		(layer "F.SilkS")
 		(uuid "b0698749-597e-4d4f-939d-25d846f52236")
