@@ -2714,7 +2714,7 @@
 		(uuid "00000000-0000-0000-0000-0000630658fc")
 		(at 43.688 120.777 -90)
 		(property "Reference" "J2"
-			(at -0.69228 -3.184 270)
+			(at -0.69228 -3.184 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "38a10554-6a5f-4322-9de8-6ce0160e0092")
@@ -8319,7 +8319,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "François Gervais\n28 avril 2024\nv"
+	(gr_text "François Gervais\n28 avril 2024\nv2.0.0"
 		(at 54.356 83.82 0)
 		(layer "B.SilkS")
 		(uuid "9ecd5624-52bb-4038-8e37-405ac9e12798")
