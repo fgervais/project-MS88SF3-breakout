@@ -8307,7 +8307,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "François Gervais\n28 avril 2024\nv2.0.0"
+	(gr_text "François Gervais\n28 avril 2024\nv2.0.0-7-g4cf9176"
 		(at 54.356 83.82 0)
 		(layer "B.SilkS")
 		(uuid "9ecd5624-52bb-4038-8e37-405ac9e12798")
